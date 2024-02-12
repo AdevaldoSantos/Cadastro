@@ -12,7 +12,9 @@
     padding: 10px;
     font-size: 30px;
     border: 2px solid black;
+    font-family: Arial, Helvetica, sans-serif;
 }
+
 section{
     display: flex;
     flex: 1 0 400px;
@@ -20,4 +22,17 @@ section{
     justify-content: center;
     align-items: center;
     min-height: 50vh;
+}
+
+.cadastro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #bbbbbb;
+    padding: 10px;
+    font-size: 20px;
+    border: 2px solid black;
+    width: 50%;
+    height: 225px;
 }
