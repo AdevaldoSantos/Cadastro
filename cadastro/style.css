@@ -36,3 +36,24 @@ section{
     width: 50%;
     height: 225px;
 }
+
+.nome {
+    padding: 5px;
+}
+#nome {
+    width: 200px;
+}
+
+.idade {
+    padding: 5px;
+}
+#idade {
+    width: 205px;
+}
+
+.profissao {
+    padding: 5px;
+}
+#profissao {
+    width: 175px;
+}
