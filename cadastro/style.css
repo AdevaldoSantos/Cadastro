@@ -17,7 +17,7 @@
 
 section{
     display: flex;
-    flex: 1 0 400px;
+    flex: 1 0 300px;
     background-color: #999999;
     justify-content: center;
     align-items: center;
@@ -38,35 +38,43 @@ section{
 }
 
 .nome {
+    display: flex;
     padding: 5px;
 }
 #nome {
+    display: flex;
     width: 200px;
 }
 
 .idade {
+    display: flex;
     padding: 5px;
 }
 #idade {
+    display: flex;
     width: 205px;
 }
 
 .profissao {
+    display: flex;
     padding: 5px;
+    padding-bottom: 10px;
 }
 #profissao {
+    display: flex;
     width: 175px;
 }
 
 .resultado {
     display: flex;
-    justify-content: center;
+    flex: 0 0 50%;
+    justify-content: baseline;
     align-items: center;
     background-color: #bbbbbb;
     padding: 10px;
     border: 2px solid black;
-    width: 200px;
-    height: 100px;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 footer {
@@ -78,4 +86,10 @@ footer {
     font-size: 30px;
     border: 2px solid black;
     font-family: Arial, Helvetica, sans-serif;   
+
+}
+
+#enviar {
+    padding: 2px;
+    border: 2px solid black;
 }
