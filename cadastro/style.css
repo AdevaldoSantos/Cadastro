@@ -57,3 +57,14 @@ section{
 #profissao {
     width: 175px;
 }
+
+.resultado {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #bbbbbb;
+    padding: 10px;
+    border: 2px solid black;
+    width: 200px;
+    height: 100px;
+}
